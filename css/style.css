@@ -1,0 +1,221 @@
+CSS 
+/* font-family: 'Cormorant Garamond', serif; */
+
+body {
+    font-family: 'Cormorant Garamond', serif;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+}
+
+.conteneur {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: rgb(235, 235, 235);
+}
+
+.clear {
+    clear: both;
+}
+
+/* Style de l'en tête */
+
+header {
+    padding-top: 100px;/* on augmente la taille de la boite au dessus de 100px */
+    text-align: center; /* on centre tout le contenu textuel*/
+    height: 200px;/* hauteur */
+    width: 400px; /* largeur */
+    margin: auto; /* on centre la boîte header dans la page */
+}
+
+header p {
+    font-variant: small-caps;
+    font-style: normal;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+header h1 {
+    text-transform: uppercase;
+    margin-top: 0;
+    font-size: 2.8em;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    line-height: 60px;
+    letter-spacing: 12px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+header nav {
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+header nav a {
+    text-decoration: none;
+    font-style: italic;
+    color: #000;
+    font-size: 1.1em;
+}
+
+header nav a:hover {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+/* les sections */
+
+.sous-section {
+    width: 500px;
+    height: 500px;
+    float: left;
+    padding: 100px 15px 0 15px;
+    box-sizing: border-box;
+}
+
+#assiette .assiette {
+    background: no-repeat url(../img/assiette.png);
+    object-position: 50% 50%; /* ici on centre l'élément dans sa boîte : horizontal puis vertical */
+}
+
+#assiette .texte {
+    padding-right: 200px;
+    text-align: right;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+#assiette h2 {
+    font-style: italic;
+    padding: 0;
+    margin-bottom: -7px;
+    font-size: 1.4em;
+    text-align: right;
+    text-transform: none;
+    border-bottom: none;
+    letter-spacing: normal;
+}
+
+#assiette hr {
+    position: relative; /* on va modifier la position de l'élément */
+    left: -225px;
+    width: 510px;
+    background-color: #000;
+    z-index: 2;
+}
+
+#assiette p {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: right;
+    padding-top: 0;
+    letter-spacing: 2px;
+    font-style: normal;
+}
+
+/* toutes les autres sections */
+
+h2 {
+    font-size: 1.7em;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #000;
+    padding-bottom: 15px;
+}
+
+p {
+    font-style: italic;
+    font-weight: bold;
+    padding-top: 16px;
+}
+
+.note {
+    width: 240px;
+    background-color: #000;
+    color: #fff;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-top: 5px;
+    border-radius: 15px;
+    padding: 0 0 8px 15px;
+}
+
+/* Pied de page */
+
+footer {
+    height: 350px;
+    text-align: center;
+    width: 400px;
+    padding-bottom: 100px;
+    margin: auto;
+}
+
+.plan {
+    height: 200px;
+    background: no-repeat url(../img/plan.png);
+    background-position:center; /* on choisit de placer l'image au centre de son conteneur */
+    background-size: contain;/* l'image doit s'adapter à la taille de son conteneur */
+    opacity: 0.1;
+    margin-bottom: -80px;
+}
+
+.caption {
+    font-size: 1.4em;
+    letter-spacing: 1px;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-style: normal;
+    position: relative;
+    bottom: 80px;
+}
+
+footer h2 {
+    text-transform: uppercase;
+    margin-top: 0;
+    font-size: 2.8em;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    line-height: 60px;
+    letter-spacing: 12px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+address {
+    font-style: normal;
+    font-variant: small-caps;
+    /* font variant représente une variante en typographie comme les petites majuscules : small-caps */
+    font-weight: bolder;
+    margin-top: 2px;
+    font-size: 1em;
+}
+
+footer em {
+    line-height: 26px;
+    font-weight: bold;
+}
+
+
+/* les images en CSS  */
+
+.resto-01 {
+    background: no-repeat url(../img/resto_01.jpg);
+    object-position: 50% 50%;
+}
+
+.resto-02 {
+    background: no-repeat url(../img/resto_02.jpg);
+    object-position: 50% 50%;
+}
+.resto-03 {
+    background: no-repeat url(../img/resto_03.jpg);
+    object-position: 50% 50%;
+}
+
+.resto-04 {
+    background: no-repeat url(../img/resto_04.jpg);
+    object-position: 50% 50%;
+}

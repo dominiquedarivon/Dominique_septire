@@ -1,0 +1,52 @@
+body{
+
+background-color: antiquewhite;
+
+font-family: 'Cormorant Garamond', serif;
+}
+
+.container{
+    width:65%;
+    background-color: gray;
+    margin: 0 auto;
+}
+
+ .fig1{  
+text-align: center;
+
+}
+
+h1{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+.p1{
+text-align: center;
+
+}
+
+.sect1 img{
+float: left;
+padding: 30px;
+    
+}
+
+
+.fig2{
+    border-bottom: 1px  black solid;
+float: right;
+
+}
+.p2{
+    float: right;
+}
+
+.sect1{
+
+    float: right;
+}
+h2{
+    text-align: left;
+}
